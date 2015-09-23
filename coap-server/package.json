@@ -1,0 +1,15 @@
+{
+  "name": "coap-server",
+  "version": "1.0.0",
+  "description": "A simple CoAP protocol listener",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Chase Sillevis <chase@sillevis.net> (http://chase.sillevis.net/)",
+  "license": "MIT",
+  "dependencies": {
+    "coap": "^0.12.0"
+  }
+}
